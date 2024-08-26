@@ -1,0 +1,120 @@
+* {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+}
+.body{
+    background-image: url("/imagenes/background4.png");
+    background-repeat: no-repeat;
+}
+
+.header{
+    background-color: #eaceee;
+    border-radius: 20px;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-right: 40px;
+    margin-left: 30px;
+    width: 20%;
+    background-color: #eaceee;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    background-image: url("/imagenes/background4.png");
+    background-repeat: no-repeat;
+}
+.text-area {
+background-color: #f2def5;
+border: none;
+border-radius: 20px;
+color: #0a3871;
+margin-top: 10px;
+margin-right: 500px;
+height: 400px;
+text-transform: lowercase;
+width: 100%;
+
+}
+
+::placeholder { color: #954c9e;}
+.text-area:focus {
+    outline: none;
+    }
+
+.mensaje{
+    background: rgb(245, 204, 239);
+    background-image: url("/imagenes/leer3.png");
+    background-position: 125%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #74337c;
+    margin-left: 40px;
+    margin-right: 300px;
+    margin-top: 10px;
+    padding-right: 350px;
+    width: 50%;
+    height: 90%;
+    
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.informacion {
+    color: #a412c9;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+.btn-encriptar{
+    background-color: #a36cc4;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 50%;
+}
+.btn-desencriptar{
+    background-color: #b1c9e9;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #954c9e;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 50%;
+}
+.btn-copiar{
+    background-color: #b1c9e9;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #954c9e;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 270px;
+    margin-top: 10px;
+    position: absolute;
+    width: 25%;
+}
+
+.footer{
+    color: #a412c9;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 40px;
+    background-color: #dcbfec;
+}
